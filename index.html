@@ -4,16 +4,135 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu:300,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/css/animate.css" />
     <title>EduHub</title>
   </head>
   <body>
-    <header>
-      <h1>EduHub</h1>
-      <ul>
+    <header id="header">
+      <h1 id="title" class="animated forwards lightSpeedIn">
+        EduHub
+      </h1>
+      <ul id="list">
         <li>About</li>
         <li>Contact</li>
         <li>Feedback</li>
       </ul>
     </header>
+
+    <div class="bd-example">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleCaptions"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="banner1"></div>
+            <div class="carousel-caption d-none d-md-block">
+              <h2>
+                Want To Code But Don’t Know Where To Start?
+              </h2>
+              <p>
+                Using only free online courses, tutorials and free tools, you
+                can gain a valuable skill that will allow you to be employed in
+                a great industry that is rewarding and challenging.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="banner2"></div>
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Learn competitive programming and development</h2>
+              <p>
+                It takes considerable amount of time before you get good at it.
+                You have to keep yourself motivated throughout. Forming a team
+                and practicing is a good choice. Not giving up is the key here.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="banner3"></div>
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Get yourself ready for Job</h2>
+              <p>
+                Preparing for an interview primarily means taking time to
+                thoughtfully consider your goals and qualifications relative to
+                the position and employer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -9,3 +9,95 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
+#header {
+  position: absolute;
+  width: 100vw;
+  height: 10vh;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: "Ubuntu", serif;
+  z-index: 2;
+}
+
+#title {
+  font-family: "Kaushan Script", serif;
+  margin-left: 60px;
+  letter-spacing: 2px;
+  opacity: 1;
+  animation-delay: 0.5s;
+  font-weight: bold;
+}
+
+#list {
+  margin: 0;
+  margin-right: 10px;
+  display: flex;
+}
+
+#list > li {
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0 40px;
+  list-style: none;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+#list > li:hover {
+  transform: scale(1.2);
+}
+
+#carouselExampleIndicators {
+  height: 100vh;
+}
+.d-block {
+  width: 100vw;
+  height: 100vh;
+}
+
+.banner1 {
+  height: 100vh;
+  background-image: url("./assets/img/first.jpg");
+  background-size: cover;
+}
+
+.banner2 {
+  height: 100vh;
+  background-image: url("./assets/img/second.jpg");
+  background-size: cover;
+}
+
+.banner3 {
+  height: 100vh;
+  background-image: url("./assets/img/third.jpg");
+  background-size: cover;
+}
+
+.carousel-caption {
+  height: 350px;
+}
+
+.carousel-item:nth-child(even) > .carousel-caption {
+  text-align: right;
+}
+
+.carousel-item:nth-child(odd) > .carousel-caption {
+  text-align: left;
+}
+
+.carousel-caption > h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+  font-family: "PT Sans", serif;
+  text-transform: capitalize;
+}
+
+.carousel-caption > p {
+  font-size: 20px;
+  font-family: "Raleway", serif;
+  line-height: 2;
+}
