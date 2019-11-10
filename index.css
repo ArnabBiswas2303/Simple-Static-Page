@@ -43,12 +43,23 @@ body {
   font-size: 20px;
   margin: 0 40px;
   list-style: none;
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
   transition: all 0.3s;
   cursor: pointer;
 }
 
 #list > li:hover {
   transform: scale(1.2);
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 
 #carouselExampleIndicators {
@@ -94,10 +105,12 @@ body {
   margin-bottom: 50px;
   font-family: "PT Sans", serif;
   text-transform: capitalize;
+  animation-delay: 0.7s;
 }
 
 .carousel-caption > p {
   font-size: 20px;
   font-family: "Raleway", serif;
   line-height: 2;
+  animation-delay: 0.9s;
 }
