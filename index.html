@@ -40,14 +40,24 @@
     <title>EduHub</title>
   </head>
   <body>
+    <!-- POPUP -->
+    <div class="popUpBg">
+      <div class="box">
+        <div class="myPic"></div>
+        <h1>Arnab Biswas</h1>
+        <p>201700146</p>
+        <p>Sec : A</p>
+        <p>Love To Code</p>
+      </div>
+    </div>
     <!-- HEADER -->
     <header id="header">
       <h1 id="title" class="animated forwards lightSpeedIn">
         EduHub
       </h1>
       <ul id="list">
-        <li>About</li>
-        <li>Contact</li>
+        <li><a href="#people">People</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li>Feedback</li>
       </ul>
     </header>
@@ -131,6 +141,8 @@
     </div>
 
     <!-- PEOPLE AREA -->
+    <h2 id="people">Hall Of Fame</h2>
+    <hr id="hr" />
     <div class="main container">
       <!-- ELON MUSK -->
       <div class="card" style="width: 18rem;">
@@ -260,6 +272,25 @@
     </div>
 
     <!-- FOOTER -->
+    <footer id="#contact">
+      <h2>Wanna Know The Developer?</h2>
+      <button id="popUp" class="btn btn-success">Dev Info</button>
+      <hr />
+      <div id="copywrite">
+        <p>&#169; 2019 Arnab Biswas</p>
+        <p>Why Are You Reading This? There Is Nothing Here!</p>
+        <div class="links">
+          <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.facebook.com"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a href="https://www.instagram.com"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://github.com"><i class="fab fa-github-square"></i></a>
+        </div>
+      </div>
+    </footer>
 
     <!-- JavaScript -->
     <script
@@ -275,6 +306,11 @@
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/be97b9b2ce.js"
       crossorigin="anonymous"
     ></script>
     <script src="./index.js"></script>

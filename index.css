@@ -9,6 +9,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #f2f2f2;
+  scroll-behavior: smooth;
 }
 
 #header {
@@ -55,6 +56,10 @@ body {
 
 #list > li:hover {
   transform: scale(1.2);
+}
+#list > li > a {
+  color: #fff;
+  text-decoration: none;
 }
 
 @keyframes fadeIn {
@@ -133,4 +138,109 @@ body {
 
 .card-img-top {
   max-height: 300px;
+}
+
+footer {
+  margin: 30px 0 0 0;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: url("./assets/img/footerImg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 20px;
+  color: white;
+}
+
+footer > h2 {
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+}
+
+footer > button {
+  width: 200px;
+  margin-top: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: "Ubuntu", serif;
+  text-transform: uppercase;
+}
+
+footer > hr {
+  margin-top: 60px;
+  width: 90vw;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #3d558d, #fff, #3d558d);
+}
+
+#copywrite {
+  font-size: 20px;
+  font-family: "Ubuntu", serif;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links > a {
+  margin: 0 10px;
+  color: white;
+}
+
+.popUpBg {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  z-index: 100;
+}
+.box {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-family: "Ubuntu", serif;
+}
+.myPic {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+  background: url("./assets/img/boy.svg");
+  background-size: cover;
+  background-clip: content-box;
+  background-position: center;
+  border-radius: 50%;
+}
+.box > h1 {
+  margin: 10px 0;
+  font-weight: bold;
+}
+.box > p {
+  margin: 10px 0;
+}
+
+#people {
+  font-family: "Ubuntu", serif;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 50px 0 10px;
+  text-align: center;
+}
+
+#hr {
+  max-width: 800px;
+  border: 1px solid;
+  margin: auto;
 }
