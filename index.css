@@ -8,6 +8,7 @@ html,
 body {
   width: 100vw;
   height: 100vh;
+  background-color: #f2f2f2;
 }
 
 #header {
@@ -113,4 +114,23 @@ body {
   font-family: "Raleway", serif;
   line-height: 2;
   animation-delay: 0.9s;
+}
+
+.main {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 30px 0;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-img-top {
+  max-height: 300px;
 }
